@@ -1,20 +1,14 @@
-h1, h2, p {
-    text-align: center;
-}
-body {
-    display: flex;
+.body {
     align-items: center;
     box-sizing: border-box;
     background-color: white
 }
-.head {
-    width: 80%;
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    text-align: left;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-}
-div.vision {
-    display: flex;
-      align-items: center;
-      justify-content: right;
-      margin: auto;
 }
